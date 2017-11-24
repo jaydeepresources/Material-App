@@ -1,0 +1,6 @@
+<br/>
+<div class="container-fluid">
+    <h3 @fade class="text-primary" *ngFor="let item of items;let i=index" (click)="deleteItem(i)">
+      {{item}}
+    </h3>
+</div>
